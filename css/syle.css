@@ -650,3 +650,146 @@ body {
     text-align: right;
     text-decoration-line: underline;
 }
+
+/*Mobile*/
+
+.burger-menu {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.burger-slide {
+    position: absolute;
+}
+
+
+.disp {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .regestr {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .first__text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .two {
+        display: block;
+    }
+
+    .two__flex {
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .three {
+        display: block;
+    }
+
+    .three__img {
+        width: 100%;
+    }
+
+    .three_left {
+        padding-bottom: 30px;
+    }
+
+    .three__subtitle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .four__flex, .colums, .four__marginfirst , .four__flex, .four_padding {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .five , .five__one {
+        display: block;
+    }
+
+    .five__imgtop {
+        width: 100%;
+    }
+
+    .five__roger, .five__secondsub, .five__button , .five__pp {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .five__btn {
+        padding-bottom: 50px;
+    }
+    
+    .media__fivelast {
+        width: 100%;
+    }
+
+    .seven, .seven__flex {
+        display: block;
+    }
+
+    .seven__two {
+        text-align: center;
+    }
+
+    .seven__two__one, .seven__bigbtn, .seven__bigbtn1 {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .seven__two__one, .seven__two__one, .seven__bigbtn, .margin  {
+        margin-bottom: 10px;
+    }
+
+    .seven__three, .seven__subbbb, .seven__btn, .seven__batton , .main__input {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .seven__btn {
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .main__input {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer__one , .footer__two {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        justify-content: space-between;
+    }
+}
+

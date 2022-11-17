@@ -20,16 +20,23 @@
                 <ul class="menu__list">
                     <li class="menu__item"><a href="#" class="menu__link">Cподобалось</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Особистий кабінет</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Налаштуваннz</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Налаштування</a></li>
                 </ul>
                 <div class="header__korzina"><img src="./img/icon/korzina.svg" alt=""></div>
                 <div><img src="./img/icon/lupa.svg" alt=""></div>
             </nav>
-            <div class="menu__icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            
+            <div class="burger-menu">
+                <button id="burgerz">
+                    <img src="./img/Group.png" alt="menu">
+                </button>
+
+                <div id="menuz" class="burger-slide disp">
+                    <a class="menu__link block" href="#">Cподобалось</a> 
+                    <a class="menu__link block" href="#">МЕНЮ</a> 
+                    <a class="menu__link block" href="#">Налаштуваннят</a> 
+                </div>
+            </div>    
         </div>
     </header>
 
@@ -113,7 +120,7 @@
         <section class="four">
             <div class="four__text">Нові надходження</div>
             <div class="four__flex">
-                <div  class="four__marginfirst">
+                <div  class="four__marginfirst colums">
                     <div>
                     <img class="four__img four__sevenimg" src="./img/clocksectionfour/1.png" alt="">
                     </div>
@@ -127,7 +134,7 @@
                     </div>
                 </div>
                 
-                <div>
+                <div class="colums">
                     <div>
                     <img class="four__img four__sevenimg" src="./img/clocksectionfour/2.png" alt="">
                     </div>
@@ -141,7 +148,7 @@
                     </div>
                 </div>  
 
-                <div>
+                <div class="colums">
                     <div>
                     <img class="four__img four__sevenimg" src="./img/clocksectionfour/3.png" alt="">
                     </div>
@@ -155,7 +162,7 @@
                     </div>
                 </div>  
 
-                <div>
+                <div class="colums">
                     <div>
                     <img class="four__img four__sevenimg" src="./img/clocksectionfour/4.png" alt="">
                     </div>
@@ -171,7 +178,7 @@
             </div>
 
             <div class="four__flex four_padding">
-                <div class="four__marginfirst">
+                <div class="four__marginfirst colums">
                     <div>
                     <img class="four__img four__sevenimg" src="./img/clocksectionfour/5.png" alt="">
                     </div>
@@ -185,7 +192,7 @@
                     </div>
                 </div>
                 
-                <div>
+                <div class="colums">
                     <div>
                     <img class="four__img four__sevenimg" src="./img/clocksectionfour/6.png" alt="">
                     </div>
@@ -199,7 +206,7 @@
                     </div>
                 </div>  
 
-                <div>
+                <div class="colums">
                     <div>
                     <img class="four__img four__sevenimg" src="./img/clocksectionfour/7.png" alt="">
                     </div>
@@ -213,7 +220,7 @@
                     </div>
                 </div>  
 
-                <div>
+                <div class="colums">
                     <div>
                     <img src="./img/clocksectionfour/8.png" alt="">
                     </div>
@@ -248,7 +255,7 @@
                 </div>
             </div>
             <div class="five__one">
-                <img src="./img/section__five/3.png" alt="">
+                <img class="media__fivelast" src="./img/section__five/3.png" alt="">
                 <div class="five__sub">
                     <h2 class="five__roger">ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h2>
                     <p class="five__secondsub">На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим настроєм, безліччю деталей автоспорту й за чудовою ціною.</p>
@@ -305,10 +312,11 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <div class="footer__one">© 2022 PORTEN, Інтернет-магазин годинників</div>
-            <div class="footer__two">Угода користувача</div>
-        </footer>
     </main>
+    <footer class="footer">
+        <div class="footer__one">© 2022 PORTEN, Інтернет-магазин годинників</div>
+        <div class="footer__two">Угода користувача</div>
+    </footer>
+    <script src="./js/js.js"></script>
 </body>
 </html>
