@@ -787,6 +787,27 @@ body {
     }
 }
 
+@media (max-width: 960px) {
+    .header__logo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .seven_one {
+        margin-left: auto;
+    }
+    .three_btn {
+        margin-left: 150px;
+    }
+    .seven__title, .seven__sub, .seven__title3 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}    
+    
+
+
 @media (max-width: 850px) {
     .two__flex {
         display: block;
@@ -800,3 +821,35 @@ body {
         margin-bottom: 10px;
     }
 }    
+
+
+@media (max-width: 750px) {
+    .first__text {
+        display: none;
+    }
+    .two__firstclock {
+        text-align: center;
+    }
+    .two__twoclock {
+        text-align: center;
+    }
+    .two__threeclock {
+        text-align: center;
+    }
+    .three_left {
+        display: none;
+    }
+    .pertner {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .five__secondsub {
+        display: none;
+    }
+}
+
+
