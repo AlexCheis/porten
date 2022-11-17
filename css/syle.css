@@ -827,6 +827,9 @@ body {
     .first__text {
         display: none;
     }
+    .two {
+        margin-top: -5px;
+    }
     .two__firstclock {
         text-align: center;
     }
