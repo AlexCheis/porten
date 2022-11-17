@@ -787,9 +787,16 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
-    .header {
-        justify-content: space-between;
+@media (max-width: 850px) {
+    .two__flex {
+        display: block;
+        padding-bottom: 30px;
     }
-}
-
+    .two__twoclock, .two__threeclock {
+        margin-left: 80px;
+    }
+    .two__subbb, .two__tsena {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}    
