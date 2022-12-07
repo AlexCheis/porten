@@ -1,6 +1,15 @@
-const burger = document.querySelector ("#burgerz");
-const menu = document.querySelector ("#menuz")
+const menuBtn = document.querySelector('.menu__iconi')
+const menu = document.querySelector('.menu__list')
 
-burger.addEventListener ("click", () =>{
-    menu.classList.toggle ("disp");
-});
+
+	menuBtn.addEventListener('click', () => {
+		menuBtn.classList.toggle('active')
+		menu.classList.toggle('active')
+	})
+
+    menu.querySelectorAll('a').forEach(link => {
+		link.addEventListener('click', () => {
+			menuBtn.classList.toggle('active')
+			menu.classList.toggle('active')
+		})
+	})
